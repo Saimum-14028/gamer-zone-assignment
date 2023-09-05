@@ -35,4 +35,27 @@
         top: 220px;
         left: -50px;
      }
+
+     .button{
+        flex-basis: 40%;
+     }
+
+     .about{
+        display: grid;
+        grid-template-columns: repeat(3,30%);
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 600;
+        row-gap: 20px;
+     }
+
+     .privacy{
+        display: grid;
+        grid-template-columns: repeat(2,45%);
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 1rem;
+        font-weight: 500;
+        row-gap: 20px;
+     }
 }

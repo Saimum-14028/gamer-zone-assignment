@@ -252,7 +252,6 @@
  }
 
  .button{
-    flex-basis: 18%;
     display: flex;
     border: none;
     border-radius: 50px;
@@ -271,4 +270,49 @@
     border: 2px solid #FF42A5;
     color: #FF42A5;
  }
+
+ /* footer section */
+
+ footer{
+    background-color: #0B0223;
+    color: #FFF;
+    margin: auto;
+    text-align: center;
+ }
+
+ .footer-headline{
+    font-size: 3rem;
+    font-weight: 700;
+}
+ .about{
+    display: grid;
+    grid-template-columns: repeat(6,10%);
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ .social-media-icon{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6,5%);
+    justify-content: center;
+ }
+
+ .privacy{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,15%);
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+ }
+
+ small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+ }
+
 
