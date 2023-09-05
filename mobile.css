@@ -1,5 +1,5 @@
 @media screen and (max-width:425px) {
-    .nav, .nav-about, .banner, .online-games-videos{
+    .nav, .nav-about, .banner, .online-games-videos, .play-instantly{
         flex-direction: column;
     }
 
@@ -11,4 +11,27 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .play-instantly-text{
+        width: 100%;
+     }
+
+     .play-instantly-text h3{
+        text-align: center;
+     }
+
+     .play-instantly-text p{
+        text-align: center;
+        margin: 20px auto;
+     }
+
+     .play-instantly-image{
+        width: 70%;
+        margin: 0 auto;
+     }
+
+     #image-right{
+        top: 220px;
+        left: -50px;
+     }
 }

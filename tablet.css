@@ -1,3 +1,19 @@
-@media screen and (min-width:425px) and (max-width:768px) {
-    
+@media screen and (min-width:426px) and (max-width:768px) {
+    .play-instantly-text h3{
+        text-align: center;
+     }
+
+     .play-instantly-text p{
+        text-align: center;
+        margin: 20px auto;
+     }
+
+     .play-instantly-image{
+        width: 45%;
+     }
+
+     #image-right{
+        top: 250px;
+        left: -50px;
+     }
 }
