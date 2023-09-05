@@ -204,6 +204,7 @@
     justify-content: space-around;
     gap: 20px;
     margin: 20px auto;
+ 
  }
 
  .play-instantly-text{
@@ -238,3 +239,36 @@
     left: -60px;
     width: 35%;
  }
+
+ /* button section */
+
+ .button-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 100px auto 50px;
+    align-content: center;
+    justify-content: center;
+ }
+
+ .button{
+    flex-basis: 18%;
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .button-section p{
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ .button:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+ }
+
