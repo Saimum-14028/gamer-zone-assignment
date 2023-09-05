@@ -1,9 +1,14 @@
 @media screen and (max-width:425px) {
-    .nav, .nav-about, .banner{
+    .nav, .nav-about, .banner, .online-games-videos{
         flex-direction: column;
     }
 
     .banner-image{
         width: 90%;
+    }
+
+    .videos{
+        width: 80%;
+        margin: 0 auto;
     }
 }

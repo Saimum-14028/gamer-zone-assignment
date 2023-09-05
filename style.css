@@ -72,6 +72,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+    margin: 0 auto 20px;
 }
 
 .banner-text{
@@ -115,3 +116,39 @@
     background-color: #4EC5F7;
 }
 
+
+/* online game section */
+
+.online-games{
+    margin: 20px auto;
+}
+
+.online-games-videos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.videos{
+    width: 20%;
+}
+
+.videos img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.online-games h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-games p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
