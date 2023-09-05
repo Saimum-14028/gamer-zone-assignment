@@ -1,5 +1,9 @@
 @media screen and (max-width:425px) {
-    .nav, .nav-about{
+    .nav, .nav-about, .banner{
         flex-direction: column;
+    }
+
+    .banner-image{
+        width: 90%;
     }
 }

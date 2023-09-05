@@ -10,8 +10,12 @@
     color: #FF42A5;
 }
 
+.primary-color{
+    color: rgb(184, 3, 184);
+}
+
 .primary-button{
-    border-radius: 5px;
+    border-radius: 48px;
     border: 0;
     color: white;
     font-size: 1rem;
@@ -61,3 +65,53 @@
     padding: 10px;
     align-items: center;
 }
+
+.banner{
+    background-color: rgb(252, 237, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#banner-text-header-1{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#banner-text-header-2{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.banner-text p{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#button-1{
+    background-color: #FF42A5;
+}
+
+#button-2{
+    background-color: #4EC5F7;
+}
+
